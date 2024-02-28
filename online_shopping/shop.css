@@ -1,0 +1,579 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: aliceblue;
+}
+body{
+    background-color: rgb(13, 13, 13);
+}
+/* --------------------------------------------- */
+a{
+    text-decoration: none;
+}
+.nav{
+    height: 4em;
+    width: 100%;
+    background-color: rgba(30, 28, 28, 0.9);
+    /* position: fixed; */
+}
+
+.name{
+    margin: 1% 1% 1% 3%;
+    display: inline-block;
+    font-size: 1.8em;
+    color:gold;
+    font-family:Impact;
+}
+#search{
+    margin: 0 20% 0% 20%;
+    height: 30%;
+    width:20%;
+    background-color: rgba(30, 28, 28, 0.1);
+    border:rgba(30, 28, 28, 0.1);
+    border-bottom: 2px solid white;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: small;
+}
+#contact{
+    margin-right: 0% 0% 0% 4%;
+    display: inline-block;
+    color: rgba(203, 200, 198, 0.905);
+    font-family:'Courier New', Courier, monospace;
+}
+#cart{
+    margin: 0 0 0 2% ;
+    display: inline-block;
+    color: rgba(203, 200, 198, 0.905);
+    font-family:'Courier New', Courier, monospace;
+}
+
+#search:hover{
+    color: aliceblue ;
+}
+#contact:hover{
+    color: aliceblue;
+}
+#cart:hover{
+    color: aliceblue;
+}
+/* ----------------------------------- */
+
+#first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35em;
+    width: 100%;
+    color: black;
+}
+
+#slideimages{
+    width: 70%;
+    height:90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#slideimages img{
+    width: 100%;
+    height:100%;
+    opacity: 50%;
+} 
+#text1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#text1 h1,p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(227, 161, 30);
+    text-shadow: 10px 10px 10px black;
+}
+#text1 button{
+    background-color: rgb(247, 254, 40);
+    color:black;
+    border-radius: 15px;
+    height: 30px;
+    width: 130px;
+}
+#text1 button:hover{
+    color: rgb(19, 19, 18);
+    height:35px;
+    width: 140px;
+    border-color: black;
+
+}
+.slidebutton{
+    width: 10%;
+    height: 90%;
+    background-color: rgb(13, 13, 13);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slidebtn{
+    width: 60%;
+    height: 40%;
+    background-color: rgb(24, 23, 24);
+    border:  black;
+}
+.slidebtn:hover{
+    color: rgb(208, 208, 200);
+    border: 3px solid rgb(94, 92, 92);
+    height:90px;
+    width: 50px;
+    border-radius: 3%;
+}
+
+/* --------------------------------------- -----------------------------------*/
+
+#second{
+    background-color: white;
+    height: 35em;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    
+}
+#second1{
+    width: 25%;
+    height: 90%;
+    margin-right: 1%;
+    display: inline-block;
+    object-fit: cover;
+}
+#second2{
+    width: 25%;
+    height: 90%;
+    /* margin-left: 0.5%; */
+    display: inline-block;
+    position: relative;
+    top: 1.4%;
+    object-fit: contain;
+}
+
+#second1 img{
+    border-radius: 2%;
+    width: 100%;
+    height:100%;
+    opacity: 100%;
+}
+#second2 img{
+    border-radius: 2%;
+    width: 100%;
+    height:100%;
+    opacity: 100%;
+}
+
+#text2{
+    position: absolute;
+    /* padding: 1; */
+    /* background-color: rgb(6, 33, 241,0.1); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#text2 h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    position: absolute;
+    top: 15%;
+    color: rgb(109, 118, 9);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 10px 10px 10px black;
+}
+#text2 button{
+    background-color: rgb(247, 254, 40);
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: rgb(247, 254, 40);
+    box-shadow: 10px 5px 5px black;
+    color:black;
+    border-radius: 15px;
+    height: 2em;
+    width: 10em;
+}
+#text2 button:hover{
+    color: rgb(19, 19, 18);
+    height:35px;
+    width: 140px;
+    border-color: black;
+}
+/* -------------------------------------------------------------------------------------------------*/
+.third{
+    background-color: rgb(11, 11, 11);
+    height: 35em;
+    color: rgb(144, 61, 61);
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    
+}
+#third1{
+    /* background-color: rgb(5, 47, 83); */
+    height: 90%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+#third2{
+    /* background-color: rgb(116, 149, 178); */
+    height: 90%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+.table1{
+    height: 100%;
+    width: 85%;
+    /* border: 5px solid black; */
+    /* border: 5px solid black; */
+
+}
+.table1 td{
+    width: 25%;
+    height: 70%;
+    padding-left: 1%;
+    /* border: 3px solid black; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: black;
+
+}
+.table1 td img{
+    height: 100%;
+    width: 100%;
+    border-radius: 2px;
+}
+
+.table2{
+    height: 100%;
+    width: 85%;
+    /* border: 5px solid black; */
+}
+.table2 td{
+    width: 25%;
+    height: 30%;
+    padding-left: 1%;
+    /* border: 3px solid black; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: black;
+
+}
+.table2 td img{
+    height: 100%;
+    width: 100%;
+    border-radius: 2px;
+
+}
+
+.table2 td p{
+    color: rgb(255, 255, 255);
+    padding-top: 1%;
+    opacity: 70%;
+}
+.table1 td p{
+    color: rgb(255, 255, 255);
+    padding-top: 1%;
+    opacity: 70%;
+}
+
+.des_h3{
+    color: rgb(242, 234, 20);
+    text-shadow: 5px 5px 5px 5px white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-shadow: 5px 5px 5px 5px black;
+    
+}
+/* ------------------------------------------------------------------------------ */
+/* ---------------------------------------------------------------------------------- */
+.fourth{
+    background-color: rgb(29, 27, 27);
+    height: 35em;
+    color: rgb(144, 61, 61);
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+
+.table3{
+    height: 90%;
+    width: 80%;
+    /* border: 5px solid rgb(239, 234, 234); */
+    /* border: 5px solid black; */
+
+}
+.table3 td{
+    padding-left:10px ;
+    width: 25%;
+    height: 70%;
+    /* border: 3px solid rgb(213, 203, 203); */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+.table3 img{
+    width: 100%;
+    height: 100%;
+}
+
+.table3 p{
+    color: rgb(255, 255, 255);
+    padding-top: 1%;
+    opacity: 70%;
+}
+
+#des4{
+    width: 70%;
+    height: 100%;
+    position: relative;
+    top: 20%;
+    left: 10%;
+    /* display: flex; */
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+}
+#des4 h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: 600px;
+}
+
+/* ------------------------------------------------------------- */
+/* --------------------------------------------------------------- */
+
+.sixth{
+    background-color: rgb(11, 11, 11);
+    height: 40em;
+    /* align-items: center;
+    justify-content: center; */
+}
+#sixth1{
+    background-color: rgb(11, 11, 11);
+    height: 80%;
+    position: relative;
+    top: 10%;
+}
+
+#img1{
+    width: 30%;
+    height: 75%;
+    margin-right: 0.8%;
+    margin-left: 0%;
+    background-color: rgb(11, 11, 11);
+    display: inline-block;
+}
+#img2{
+    width: 40%;
+    height: 100%;
+    margin-left: 1.6%;
+    margin-right: 0.8%;
+    background-color: rgb(11, 11, 11);
+    display: inline-block;
+}
+#img3{
+    width: 25%;
+    height: 90%;
+    margin-left: 1.16%;
+    background-color: rgb(11, 11, 11);
+    display: inline-block;
+    position:relative;
+    bottom: 13%;
+    align-items: center;
+    justify-content:end;
+}
+#img1 img{
+    height: 100%;
+    width: 100%;
+}
+#img2 img{
+    height: 100%;
+    width: 100%;
+}
+#img3 img{
+    height: 100%;
+    width: 100%;
+}
+/* ---------------------------------------------------------
+------------------------------------------------------------------------ */
+.seventh{
+    background-color: rgb(29, 27, 27);
+    height: 35em;
+    /* color: rgb(144, 61, 61); */
+    
+}
+#title7{
+    display: block;
+    color: rgb(82, 178, 154);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    display: inline;
+    /* border-bottom:5px solid whitesmoke ; */
+    width: 100%;
+    height: 10%;
+
+}
+#seventbl{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+
+}
+
+/* ----------------------------------------------------
+-------------------------------------------------------------- */
+
+.eight{
+    height: 35em;
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.eighta{
+    margin-right: 3%;
+    width: 30%;
+    height: 90%;
+    /* background-color: aqua; */
+}
+.eighta img{
+    height: 100%;
+    width: 100%;
+}
+.eightb{
+    width: 35%;
+    height: 85%;
+    /* background-color: rgb(164, 202, 202); */
+    position: relative;
+    top: 2%;
+    margin-left: 2%;
+    /* padding:%; */
+}
+.eightb p{
+    text-align: left;
+    color: rgb(255, 255, 255);
+    /* padding-top: 5px; */
+    opacity: 70%;
+}
+.eightb h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+
+.ref{
+    /* padding-right: 1%; */
+    margin: 1% 2% 0 0;
+}
+.subimgs{
+    height: 10%;
+    display: inline-block;
+    width: 10%;
+    background-color: rgb(188, 121, 33);
+}
+.subimgs img{
+    width: 100%;
+    height: 100%;
+}
+.subimgs:hover{
+    border: 0.19em solid rgb(243, 247, 5);
+}
+
+
+#sizebtn{
+    background-color: rgb(149, 149, 146);
+    color:black;
+    border-radius: 15px;
+    height: 6.5%;
+    width: 28%;
+    margin: 7%;
+}
+#addbtn{
+    margin: 7%;
+    background-color: rgb(247, 254, 40);
+    color:black;
+    border-radius: 10px;
+    height: 6.5%;
+    width: 28%;
+
+}
+#sizebtn:hover{
+    color: rgb(19, 19, 18);
+    height:7%;
+    width: 30%;
+    border-color: rgb(238, 230, 12);
+}
+#addbtn:hover{
+    color: rgb(19, 19, 18);
+    height:7%;
+    width: 30%;
+    border-color: rgb(217, 215, 215);
+}
+
+.eightb a:hover{
+    color: rgb(248, 244, 2);
+}
+
+/* ---------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------- */
+
+#foot{
+    height: 20VH;
+    /* background-color: antiquewhite; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* ------------------------------------------------------------------- */
+
+.insta{
+    padding-bottom: 1.5%;
+    margin-left: 18%;
+    color: rgba(203, 200, 198, 0.905);
+    font-family:'Courier New', Courier, monospace;
+}
+.insta:hover{
+    color: aliceblue;
+}
+#email{
+    height: 40px;
+    width:300px;
+    background-color: rgba(30, 28, 28, 0.1);
+    border:rgba(30, 28, 28, 0.1);
+    border-bottom: 2px solid white;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: small;
+}
+
+#desclast{
+        color: rgb(255, 255, 255);
+        padding-top: 1%;
+        opacity: 70%;
+    
+}
+
+
+
